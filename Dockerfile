@@ -3,4 +3,5 @@
 # FROM grafana/grafana:11.0.0
 # FROM quay.io/jetstack/cert-manager-webhook:v1.17.2
 # FROM quay.io/jetstack/cert-manager-cainjector:v1.17.2
-FROM quay.io/jetstack/cert-manager-controller:v1.17.2
+# FROM quay.io/jetstack/cert-manager-controller:v1.17.2
+FROM gcr.io/cadvisor/cadvisor:v0.47.2
